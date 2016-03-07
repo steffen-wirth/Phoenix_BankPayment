@@ -1,0 +1,17 @@
+{
+    "name": "phoenix/bankpayment",
+    "type": "magento-module",
+    "description": "Fork of Phoenix Bankpayment module for magento.",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+  "extra": {
+    "installer-name": "Phoenix_Bankpayment"
+  }
+}
